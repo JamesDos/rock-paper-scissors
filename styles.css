@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.user-scores, .computer-scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.running-scores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results {
+  border: 5px red solid;
+  padding: 8px;
+  margin: 32px;
+}
+
+.selection-buttons {
+  display: flex;
+  gap: 32px;
+}
